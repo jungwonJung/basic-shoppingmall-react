@@ -12,23 +12,31 @@
   "dependencies": {
     "@tanstack/react-query": "^4.29.19",
     "@tanstack/react-query-devtools": "^4.29.19",
+    "graphql-request": "^6.1.0",
+    "graphql-tag": "^2.12.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.1"
+    "react-router-dom": "^6.14.1",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@tanstack/eslint-plugin-query": "^4.29.9",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
+    "@types/uuid": "^9.0.2",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "@vitejs/plugin-react": "^4.0.1",
     "eslint": "^8.44.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
+    "msw": "^1.2.2",
     "sass": "^1.63.6",
     "typescript": "^5.0.2",
     "vite": "^4.4.0",
     "vite-plugin-next-react-router": "^0.7.1"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
