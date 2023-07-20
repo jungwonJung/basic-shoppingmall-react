@@ -1,8 +1,7 @@
-import React from "react";
 import { Product } from "../../graphql/products";
 
 const ProductDetail = ({
-  item: { imageUrl, price, title, description, createdAt },
+  item: { imageUrl, price, title, description },
 }: {
   item: Product;
 }) => {

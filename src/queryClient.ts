@@ -4,7 +4,7 @@ import { RequestDocument, request } from "graphql-request";
 type AnyObj = { [key: string]: any };
 
 const BASE_URL = "https://fakestoreapi.com";
-const MOCK_BASE_URL = "/";
+// const MOCK_BASE_URL = "/";
 
 export const getClient = (() => {
   let client: QueryClient | null = null;
@@ -65,4 +65,5 @@ export const graphqlFetcher = <T>(query: RequestDocument, variables = {}) =>
 
 export const QueryKeys = {
   PRODUCTS: "PRODUCTS",
+  CART: "CART",
 };
